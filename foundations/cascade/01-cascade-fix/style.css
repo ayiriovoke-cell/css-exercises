@@ -1,42 +1,27 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body{
+  font-family:sans-serif;
 }
-
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+.bigpara{
+  font-size:30px;
+  font-weight:bold;
 }
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+.smallpara{
+  font-weight:bold;
+  font-size:20px;
 }
-
-.para {
-  font-size: 22px;
+.green{
+  font-size:25px;
+  background-color:lightgreen;
 }
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+.default{
+  font-size:25px;
+  background-color:white;
 }
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+.thintext{
+  font-size:25px;
+  font-weight:light;
 }
-
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
+#smalldiv{
+   font-weight:bold;
+  font-size:20px;
 }
